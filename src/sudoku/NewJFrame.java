@@ -234,7 +234,7 @@ public class NewJFrame extends javax.swing.JFrame {
             }
             app.updateValue();
             sudoku.updateTabToSolve(app.getValue(), app.getRowId(), app.getColId());
-            if(sudoku.checkSolution()){
+            if(sudoku.checkSolution() && sudoku.checkExist()){
                 for (int i = 0; i < 9; i++) {
                 ArrayList<SudokuBtn> currRow = buttons.get(i);
                     for (int j = 0; j < 9; j++) {

@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package sudoku;
 
 import java.awt.Dimension;
@@ -72,57 +68,57 @@ public class SudokuBtn extends JButton {
                 this.setIcon(null);
                 break;
             case 1:
-                this.iconPath = "sudoku/one.png";
+                this.iconPath = "image/one.png";
                 image = (new ImageIcon(getClass().getResource(this.iconPath))).getImage();
                 newImage = image.getScaledInstance(this.getWidth()-((int)(this.getWidth()*0.2)), this.getHeight()-((int)(this.getHeight()*0.2)), java.awt.Image.SCALE_SMOOTH);
                 //System.out.println(this.getWidth()+" "+this.getHeight());
                 this.setIcon(new ImageIcon(newImage));
                 break;
             case 2:
-                this.iconPath = "sudoku/two.png";
+                this.iconPath = "image/two.png";
                 image = (new ImageIcon(getClass().getResource(this.iconPath))).getImage();
                 newImage = image.getScaledInstance(this.getWidth()-((int)(this.getWidth()*0.2)), this.getHeight()-((int)(this.getHeight()*0.2)), java.awt.Image.SCALE_SMOOTH);
                 this.setIcon(new ImageIcon(newImage));
                 break;
             case 3:
-                this.iconPath = "sudoku/three.png";
-                image = (new ImageIcon(getClass().getResource("sudoku/three.png"))).getImage();
+                this.iconPath = "image/three.png";
+                image = (new ImageIcon(getClass().getResource(this.iconPath))).getImage();
                 newImage = image.getScaledInstance(this.getWidth()-((int)(this.getWidth()*0.2)), this.getHeight()-((int)(this.getHeight()*0.2)), java.awt.Image.SCALE_SMOOTH);
                 this.setIcon(new ImageIcon(newImage));
                 break;                
             case 4:
-                this.iconPath = "sudoku/four.png";
-                image = (new ImageIcon(getClass().getResource("sudoku/four.png"))).getImage();
+                this.iconPath = "image/four.png";
+                image = (new ImageIcon(getClass().getResource(this.iconPath))).getImage();
                 newImage = image.getScaledInstance(this.getWidth()-((int)(this.getWidth()*0.2)), this.getHeight()-((int)(this.getHeight()*0.2)), java.awt.Image.SCALE_SMOOTH);
                 this.setIcon(new ImageIcon(newImage));
                 break;             
             case 5:
-                this.iconPath = "sudoku/five.png";
-                image = (new ImageIcon(getClass().getResource("sudoku/five.png"))).getImage();
+                this.iconPath = "image/five.png";
+                image = (new ImageIcon(getClass().getResource(this.iconPath))).getImage();
                 newImage = image.getScaledInstance(this.getWidth()-((int)(this.getWidth()*0.2)), this.getHeight()-((int)(this.getHeight()*0.2)), java.awt.Image.SCALE_SMOOTH);
                 this.setIcon(new ImageIcon(newImage));
                 break;
             case 6:
-                this.iconPath = "sudoku/six.png";
-                image = (new ImageIcon(getClass().getResource("sudoku/six.png"))).getImage();
+                this.iconPath = "image/six.png";
+                image = (new ImageIcon(getClass().getResource(this.iconPath))).getImage();
                 newImage = image.getScaledInstance(this.getWidth()-((int)(this.getWidth()*0.2)), this.getHeight()-((int)(this.getHeight()*0.2)), java.awt.Image.SCALE_SMOOTH);
                 this.setIcon(new ImageIcon(newImage));
                 break;              
             case 7:
-                this.iconPath = "sudoku/seven.png";
-                image = (new ImageIcon(getClass().getResource("sudoku/seven.png"))).getImage();
+                this.iconPath = "image/seven.png";
+                image = (new ImageIcon(getClass().getResource(this.iconPath))).getImage();
                 newImage = image.getScaledInstance(this.getWidth()-((int)(this.getWidth()*0.2)), this.getHeight()-((int)(this.getHeight()*0.2)), java.awt.Image.SCALE_SMOOTH);
                 this.setIcon(new ImageIcon(newImage));
                 break;
             case 8:
-                this.iconPath = "sudoku/eight.png";
-                image = (new ImageIcon(getClass().getResource("sudoku/eight.png"))).getImage();
+                this.iconPath = "image/eight.png";
+                image = (new ImageIcon(getClass().getResource(this.iconPath))).getImage();
                 newImage = image.getScaledInstance(this.getWidth()-((int)(this.getWidth()*0.2)), this.getHeight()-((int)(this.getHeight()*0.2)), java.awt.Image.SCALE_SMOOTH);
                 this.setIcon(new ImageIcon(newImage));
                 break;             
             case 9:
-                this.iconPath = "sudoku/nine.png";
-                image = (new ImageIcon(getClass().getResource("sudoku/nine.png"))).getImage();
+                this.iconPath = "image/nine.png";
+                image = (new ImageIcon(getClass().getResource(this.iconPath))).getImage();
                 newImage = image.getScaledInstance(this.getWidth()-((int)(this.getWidth()*0.2)), this.getHeight()-((int)(this.getHeight()*0.2)), java.awt.Image.SCALE_SMOOTH);
                 this.setIcon(new ImageIcon(newImage));
                 break;                
